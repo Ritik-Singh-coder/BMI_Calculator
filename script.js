@@ -15,7 +15,7 @@ e.preventDefault();
 
 
     }
-    if(Weight === "" || Weight < 0 || isNaN(Weight)){
+    else if(Weight === "" || Weight < 0 || isNaN(Weight)){
         result.innerHTML = `Please Enter a valid ${Weight}`;       
   }
   else{
