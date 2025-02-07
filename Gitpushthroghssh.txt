@@ -1,0 +1,24 @@
+This is file tells you how to push and pull on github via ssh
+
+first you need to generate ssh keys through command 
+ssh-keygen   or    ssh-keygen -t rsa 
+
+on your local inside .ssh folder you have your private key and on github inside access opition ssh and gpg key paste over in new ssh your public key 
+
+copy the repo link via ssh
+
+git clone <pasteurl>
+
+now you can push and pull anything from github and local
+
+git push origin <branch_name>
+
+git pull origin <branch_name>
+
+for pull some files from github to your local system which connected via ssh
+
+ 
+
+
+
+
